@@ -1,16 +1,23 @@
 {
   "name": "oauth-demo",
   "version": "1.0.0",
-  "description": "OAuth demo application",
+  "description": "OAuth demo application with React Authentication Provider",
   "main": "index.js",
   "scripts": {
     "dev": "node index.js",
     "start": "node index.js",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "clean": "rm -rf dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "oauth",
-    "demo"
+    "demo",
+    "react",
+    "typescript",
+    "authentication",
+    "auth-provider"
   ],
   "author": "",
   "license": "ISC",
@@ -18,7 +25,14 @@
     "express": "^4.18.2",
     "cookie-parser": "^1.4.6",
     "express-session": "^1.17.3",
-    "node-fetch": "^2.7.0"
+    "node-fetch": "^2.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "typescript": "^5.3.3"
+  }
 }
