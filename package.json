@@ -1,0 +1,19 @@
+{
+  "name": "oauth-demo",
+  "version": "1.0.0",
+  "description": "OAuth demo application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm start",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "oauth",
+    "demo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}
